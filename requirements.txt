@@ -1,0 +1,7 @@
+tensorflow==2.15.0
+albumentations
+opencv-python
+matplotlib
+scikit-learn
+numpy
+PyYAML
