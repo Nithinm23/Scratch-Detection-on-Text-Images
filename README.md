@@ -23,8 +23,12 @@ Result
 Conclusion
 
 # Demo Photos
+<img width="940" height="453" alt="image" src="https://github.com/user-attachments/assets/c3754cbf-9eb1-4e86-afc6-f616e2bfac99" />
+<img width="940" height="431" alt="image" src="https://github.com/user-attachments/assets/a47b81e6-9f43-4783-b796-f654e9f08014" />
+<img width="940" height="431" alt="image" src="https://github.com/user-attachments/assets/e886977f-506e-4f19-b091-13218faccc29" />
+<img width="940" height="466" alt="image" src="https://github.com/user-attachments/assets/0e4021b2-58e7-4158-aafc-87900e4fba91" />
+<img width="940" height="466" alt="image" src="https://github.com/user-attachments/assets/9959b5cc-614f-433f-bc58-a7d7d22cacd6" />
 
-Replace the image paths with Grad-CAM and classification result samples from your model.
 
 <p align="center"> <img src="examples/good_prediction.png" width="220" /> <img src="examples/bad_prediction.png" width="220" /> <img src="examples/gradcam_bad1.png" width="220" /> <img src="examples/gradcam_bad2.png" width="220" /> </p>
 
@@ -39,15 +43,17 @@ Matplotlib:	Plot visualizations for evaluation & Grad-CAM
 
 ## Result
 <p align="justify"> The model achieved strong quantitative performance on the test set. With robust augmentation and an EfficientNetV2 backbone, the classifier demonstrates high generalization across all three text types in the dataset. </p>
-Model Performance (Example)
 
-Precision (BAD): 0.92
+Model Performance 
+<img width="624" height="520" alt="image" src="https://github.com/user-attachments/assets/7d6e8bac-3b2b-4613-873d-1053607abd38" />
+Confusion Matrix
 
-Recall (BAD): 0.89
+<img width="803" height="705" alt="image" src="https://github.com/user-attachments/assets/dd393ea4-83e9-4b81-a180-b7edaf32df33" />
+ROC Curve
 
+Precision (BAD): 100%
 
-
-<p align="center"> <img src="examples/confusion_matrix.png" width="350" /> </p> <p align="justify"> Grad-CAM produced accurate heatmaps showing scratch locations even in subtle cases. </p>
+Recall (BAD): 100%
 
 ## Conclusion
 <p align="justify"> Scratch-Detection-on-Text-Images effectively identifies both clear and scratched text surfaces using a modern convolutional neural network. 
