@@ -1,5 +1,5 @@
-## Scratch-Detection-on-Text-Images
-# Overview
+# Scratch-Detection-on-Text-Images
+## Overview
 <p align="justify"> 
 Scratch-Detection-on-Text-Images is a deep-learning–based project designed to classify whether a text image is clean (**GOOD**) or contains a scratch (**BAD**). 
 The project uses an EfficientNetV2-S neural network trained on images of printed text, with additional support for **weakly supervised scratch localization** using Grad-CAM. 
