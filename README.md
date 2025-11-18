@@ -30,8 +30,6 @@ Conclusion
 <img width="940" height="466" alt="image" src="https://github.com/user-attachments/assets/9959b5cc-614f-433f-bc58-a7d7d22cacd6" />
 
 
-<p align="center"> <img src="examples/good_prediction.png" width="220" /> <img src="examples/bad_prediction.png" width="220" /> <img src="examples/gradcam_bad1.png" width="220" /> <img src="examples/gradcam_bad2.png" width="220" /> </p>
-
 ## Libraries
 # Library	Description
 TensorFlow / Keras:	Model training and EfficientNetV2 backbone
